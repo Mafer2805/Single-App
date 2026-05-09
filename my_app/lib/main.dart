@@ -144,7 +144,10 @@ class _HomePageState extends State<HomePage> {
             const SizedBox(height: 30),
             Text(
               "IMC: ${imc.toStringAsFixed(2)}",
-              style: const TextStyle(fontSize: 24),
+              style: const TextStyle(
+                fontSize: 24,
+                color: Colors.black,
+              ),
             ),
             // Texto que muestra la clasificación del IMC
             Text(
